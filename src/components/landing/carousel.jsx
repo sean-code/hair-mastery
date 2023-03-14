@@ -10,12 +10,12 @@ const Slider = () => {
                     <img
                     style={{width:'10%', height:'20%', filter:'brightness(50%)'}}
                     className="d-block w-100"
-                    src="https://media.istockphoto.com/id/1356385563/photo/people-in-a-meeting-or-group-therapy.jpg?s=612x612&w=0&k=20&c=Pima7ST7FgnPKjE6oRyhlTwb5hO1dnavAb7lQWbjOdc="
+                    src="https://media.istockphoto.com/id/1308801083/photo/client-during-beard-shaving-in-barber-shop.jpg?s=612x612&w=0&k=20&c=XIoEGGAn_2deTFEbTBIABS2vDLRIwSJwcrsf4OIfQ18="
                     alt="First slide"
                     />
                     <Carousel.Caption className='carousel-caption'>
                     <h1 style={{}}>
-                        Welcome</h1>
+                        Welcome to Our Hair Dressing</h1>
                     <p>Wilkomen, Bienvenue, Bienvenidos interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -23,12 +23,12 @@ const Slider = () => {
                     <img
                     style={{width:'10%', height:'20%', filter:'brightness(50%)'}}
                     className="d-block w-100"
-                    src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tbXVuaXR5JTIwc2VydmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    src="https://media.istockphoto.com/id/1297620303/photo/smiling-barber-combing-customers-haircut.jpg?s=612x612&w=0&k=20&c=jV59P-WRqCf4ivNAmTNHjUwsgGUiWcaXSLLJin-0UqA="
                     alt="First slide"
                     />
                     <Carousel.Caption className='carousel-caption'>
                     <h1 style={{}}>
-                        Join Us Today For a Better Tomorrow</h1>
+                        Book Your Session Today</h1>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -36,21 +36,21 @@ const Slider = () => {
                     <img
                      style={{width:'10%', filter:'brightness(50%)'}}
                     className="d-block w-100"
-                    src="https://media.istockphoto.com/id/1357827625/photo/diverse-group-of-happy-volunteers-walking-together-after-street-clean-up-community-service.jpg?b=1&s=170667a&w=0&k=20&c=1d6XINaI6wGa_o27Y80WIa-bXA63f_GZ9P6Z1FnFZ7Q="
+                    src="https://media.istockphoto.com/id/1407090464/photo/cute-little-boy-at-the-barber-shop-getting-his-hairut.jpg?s=612x612&w=0&k=20&c=I5Oh0kyjfERCAN2sNbAdjtAFgx5prm6unWWrQ8xokko="
                     alt="Second slide"
                     />
 
                     <Carousel.Caption className='carousel-caption'>
                     <h1 style={{}}>
-                        Experience Reciprocal Communication</h1>
-                    <p>This includes all levels of french in terms of learning and teaching</p>
+                    Top Male Grooming Brand</h1>
+                    <p>Enjoy our Services</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={1900}>
                     <img
                      style={{width:'10%', filter:'brightness(50%)'}}
                     className="d-block w-100"
-                    src="https://media.istockphoto.com/id/1403441234/photo/cheerful-teenagers-putting-their-hands-together-in-unity.jpg?b=1&s=170667a&w=0&k=20&c=0hmgD9uy3JjjdRLJeEx-9v5acz-DKJOAShd4JlDYmGs="
+                    src="https://media.istockphoto.com/id/1356272678/photo/close-shot-of-a-young-man-beard-while-he-is-sitting-at-a-barbershop.jpg?s=612x612&w=0&k=20&c=rD1LFUkePrSPQ0M44sJQL5Ww8A70xYu2PjRCSQcd3Vo="
                     alt="Third slide"
                     />
                     <Carousel.Caption className='carousel-caption'>
