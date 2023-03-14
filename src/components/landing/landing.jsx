@@ -6,7 +6,7 @@ const Home = () => {
     return(
         <>
             <Slider />
-            <h2 style={{marginTop:'50px'}}>Enjoy Our Services From Any Of Our Shops</h2>
+            <h2 style={{marginTop:'50px'}}>Visit Us To Any Of Our Shops</h2>
             <Image />
         </>
     )
