@@ -29,8 +29,8 @@ const Footer = () => {
                             <ul className="footer-links">
                             <li><a href="http://scanfcode.com/about/">About Us</a></li>
                             <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-                            <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-                            <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+                            <li><a href="http://scanfcode.com/privacy-policy/">Services</a></li>
+                            <li><a href="http://scanfcode.com/sitemap/">Testimonials</a></li>
                             </ul>
                         </div>
                     </div>

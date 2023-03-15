@@ -55,7 +55,7 @@ const Slider = () => {
                     />
                     <Carousel.Caption className='carousel-caption'>
                         <h1 style={{}}>
-                            Our Passionate Brotherhood</h1>
+                            Our Passionate Profession</h1>
                         <p>We are highly fun and interactive</p>
                     </Carousel.Caption>
                 </Carousel.Item>
