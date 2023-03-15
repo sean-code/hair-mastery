@@ -3,20 +3,13 @@
     padding: 20px;
     border-radius: 5px;
   }
-  
-  .service__item-info span i {
-    color: #f9a826;
-    font-size: 1.1rem;
-  }
-  
   .service__item-btn {
     border-radius: 0;
     border: none;
     outline: none;
-    background: #000d6b;
+    background: #000c6be3;
     padding: 8px 0px;
   }
-  
   .service__item-btn a {
     text-decoration: none;
     color: #fff;
@@ -27,7 +20,7 @@
     color: #fff;
   }
   .service__btn-details {
-    background: #f9a826;
+    background: #000000d0;
     border-radius: 0px 4px 4px 0px;
   }
   

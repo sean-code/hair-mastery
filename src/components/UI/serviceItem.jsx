@@ -1,5 +1,6 @@
 import React from "react";
 import { Col } from "reactstrap";
+import { Link } from "react-router-dom";
 import "./serviceItem.css";
 
 const ServiceItem = (props) => {
@@ -20,6 +21,13 @@ const ServiceItem = (props) => {
           <p>
             {desc}
           </p>
+          <button className=" w-50 service__item-btn service__btn-rent">
+            <Link to={`/our-services/${title}`}>Book Service</Link>
+          </button>
+
+          <button className=" w-50 service__item-btn service__btn-details">
+            <Link to={`/our-services/${title}`}>Details</Link>
+          </button>
         </div>
       </div>
     </Col>
