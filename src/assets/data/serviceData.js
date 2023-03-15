@@ -1,9 +1,9 @@
 const serviceData = [
     {
         "id":1,
-        "title": "Clean Shave",
+        "title": "Bald Shave",
         "price": "450",
-        "image": "https://media.istockphoto.com/id/965181864/photo/rear-view-of-young-man-getting-a-modern-haircut.jpg?s=612x612&w=0&k=20&c=UpN1sw334_CChq25d0G6mN3Hoynn1w61vZGZihaPeZo=",
+        "image": "https://media.istockphoto.com/id/1453522902/photo/middle-aged-caucasian-man-is-cutting-his-own-hair-with-electric-razor.jpg?s=612x612&w=0&k=20&c=VoKMa4eo_SXJQBwJ7U7TBHmKrMIM83QOFDw6iSw1BAY=",
         "desc": "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub"
     },
     {
@@ -15,9 +15,9 @@ const serviceData = [
     },
     {
        "id":3,
-        "title": "Fade",
+        "title": "Fade Haircut",
         "price": "350",
-        "image": "https://media.istockphoto.com/id/464406044/photo/little-boy-getting-his-head-shaved-by-barber.jpg?s=612x612&w=0&k=20&c=EK8g7XcRbL7SCntWt_fMGB-jhf0ANqGAIfwPQFNDfB0=",
+        "image": "https://media.istockphoto.com/id/502193180/photo/hairdresser-cutting-clients-hair-with-an-electric-hair-clipper.jpg?s=612x612&w=0&k=20&c=W8vw9BCeGYhDS297qgdN1h_BKpXVbEIh4Jecp_3xCqw=",
         "desc": "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub"
     },
     {
@@ -55,6 +55,28 @@ const serviceData = [
         "image": "https://media.istockphoto.com/id/1365387308/photo/dyeing-mens-hair-at-home.jpg?s=612x612&w=0&k=20&c=IAsuBV5r_fzdUbCry_2NhWYg2nHkq5O_DcZ-lgdNlek=",
         "desc": "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub"
     },
+    {
+        "id":9,
+        "title": "Beard Grooming",
+        "price": "200",
+        "image": "https://media.istockphoto.com/id/506514230/photo/beard-grooming.jpg?s=612x612&w=0&k=20&c=QDwo1L8-f3gu7mcHf00Az84fVU8oNpQLgvUw6eGPEkc=",
+        "desc": "There isn’t much time for self-love activities such as beard grooming for men on the go. However, our barbershops handle the job like a charm—taking some tasks off men’s plates. "
+    },
+    {
+        "id":10,
+        "title": "Clean Shave",
+        "price": "400",
+        "image": "https://media.istockphoto.com/id/546796802/photo/the-hands-of-young-barber-making-haircut-to-attractive-man.jpg?s=612x612&w=0&k=20&c=vV7E4ggKsw95wPjyB_tDUDeQ8_EzwBnF1F6J0l6oZjE=",
+        "desc": "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub"
+    },
+    {
+        "id":10,
+        "title": "Exfoliation",
+        "price": "500",
+        "image": "https://media.istockphoto.com/id/1252286602/photo/a-hairdresser-with-security-measures-for-covid-19-blow-dry-a-man-in-a-medicine-mask.jpg?s=612x612&w=0&k=20&c=qQLQZ8QfO1OUypOSx2m9eDZ_yjY_s0NaSNRngm2MSqw=",
+        "desc": "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub"
+    },
 ]
+
 
 export default serviceData;

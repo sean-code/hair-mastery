@@ -4,7 +4,7 @@
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#737373;
+  color:#fafafaa1;
 }
 .site-footer hr
 {
@@ -25,7 +25,8 @@
 }
 .site-footer a
 {
-  color:#737373;
+  color:#fff;
+  text-decoration: none;
 }
 .site-footer a:hover
 {

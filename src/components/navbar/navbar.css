@@ -49,7 +49,7 @@
 .menu-items li{
     list-style: none;
     margin-left: 1.5rem;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 
@@ -62,7 +62,7 @@
 
 .navbar a:hover{
     text-decoration: underline;
-    text-decoration-color: orange;
+    text-decoration-color:#3366cc;
     text-decoration-thickness: 4px;
 }
 

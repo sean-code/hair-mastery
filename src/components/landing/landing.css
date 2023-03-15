@@ -103,9 +103,11 @@
   }
 }
 
-@media (min-width: 900px){
 
+
+
+/* Popular Treats Section */
+.service-item {
+    width: calc(33.33% - 2rem);
+    max-width: 18rem;
 }
-
-
-
