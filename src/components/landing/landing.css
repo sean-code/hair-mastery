@@ -22,44 +22,43 @@
 
 /* Images */
 .imageBox {
-    margin-top: 30px;
-    object-fit: contain;
+  margin-top: 30px;
+  object-fit: contain;
+}
+.box-tasvir {
+  display: flex;
+  overflow: hidden;
+  object-fit: contain;
+  height: 400px;
+  width: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+@keyframes masihscroll {
+  0% {
+    transform: translateY(0%);
   }
-  .box-tasvir {
-    display: flex;
-    overflow: hidden;
-    object-fit: contain;
-    height: 400px;
-    width: 90%;
-    position: relative;
-    margin: 0 auto;
+  50% {
+    transform: translateX(-200%);
   }
-  @keyframes masihscroll {
-    0% {
-      transform: translateY(0%);
-    }
-    50% {
-      transform: translateX(-200%);
-    }
-    100% {
-      transform: translateY(-0%);
-    }
+  100% {
+    transform: translateY(-0%);
   }
-  .box-tasvir img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    transition: all 0.5s;
-    animation-duration: 20s;
-    animation-name: masihscroll;
-    animation-iteration-count: 1000;
-    object-fit: contain;
-  }
-  
-  .box-tasvir img {
-    padding: 10px;
-  }
-  
+}
+.box-tasvir img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  transition: all 0.5s;
+  animation-duration: 20s;
+  animation-name: masihscroll;
+  animation-iteration-count: 1000;
+  object-fit: contain;
+}
+
+.box-tasvir img {
+  padding: 10px;
+}
 
 
 /* Video */
@@ -107,7 +106,3 @@
 
 
 /* Popular Treats Section */
-.service-item {
-    width: calc(33.33% - 2rem);
-    max-width: 18rem;
-}
