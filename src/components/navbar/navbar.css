@@ -176,6 +176,17 @@
 
 }
 
+span img{
+    cursor:pointer;
+    width: 20px;
+}
+
+.count{
+    background-color: rgba(0, 34, 255, 0.404);
+    padding: 1px;
+    font-size: 1.2rem;
+}
+
 @media (max-width: 650px){
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;

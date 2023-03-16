@@ -1,5 +1,6 @@
 import './navbar.css';
-import { Link } from 'react-router-dom';
+import Cart from './assets/imgs/shopping.svg';
+
 
 
 function NavBar() {
@@ -19,7 +20,12 @@ function NavBar() {
                     <li><a href="/services">Services</a></li>
                     <li><a href="/testimonials">Testimonials</a></li>
                     <li><a href="/contact">Contact</a></li>
+                    <span>
+                        <img src={Cart} alt="cart" style={{width:'40px', marginLeft:'5px'}} />
+                    </span>
+                    <span className='count'>0</span>
                 </ul>
+                
                 <h1 className="logo">Hair Mastery✂️ </h1>
             </div>
         </nav>
