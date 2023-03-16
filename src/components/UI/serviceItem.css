@@ -9,6 +9,8 @@
     outline: none;
     background: #000c6be3;
     padding: 8px 0px;
+    color: #fff;
+    font-weight: 500;
   }
   .service__item-btn a {
     text-decoration: none;
