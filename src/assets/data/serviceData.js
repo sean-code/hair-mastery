@@ -60,7 +60,7 @@ const serviceData = [
         "title": "Beard Grooming",
         "price": "200",
         "image": "https://media.istockphoto.com/id/506514230/photo/beard-grooming.jpg?s=612x612&w=0&k=20&c=QDwo1L8-f3gu7mcHf00Az84fVU8oNpQLgvUw6eGPEkc=",
-        "desc": "There isn’t much time for self-love activities such as beard grooming for men on the go. However, our barbershops handle the job like a charm—taking some tasks off men’s plates. "
+        "desc": "There isn’t much time for self-love activities such as beard grooming for men on the go. However, our barbershops handle the job. "
     },
     {
         "id":10,
@@ -76,6 +76,13 @@ const serviceData = [
         "image": "https://media.istockphoto.com/id/1252286602/photo/a-hairdresser-with-security-measures-for-covid-19-blow-dry-a-man-in-a-medicine-mask.jpg?s=612x612&w=0&k=20&c=qQLQZ8QfO1OUypOSx2m9eDZ_yjY_s0NaSNRngm2MSqw=",
         "desc": "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub"
     },
+    {
+        "id":11,
+         "title": "General Massage",
+         "price": "1000",
+         "image": "https://media.istockphoto.com/id/1158456080/photo/man-in-the-barber-shop.jpg?s=612x612&w=0&k=20&c=wcz_Nt4WMVPgE1LxT3518DJ0yRyUdJEDtCxCr6EfZSg=",
+         "desc": "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub"
+     },
 ]
 
 
