@@ -3,8 +3,8 @@ import { Col } from "reactstrap";
 import { Link } from "react-router-dom";
 import "./serviceItem.css";
 
-const ServiceItem = (props) => {
-  const { image, title, price, desc } = props.item;
+const ServiceItem = ({item, handleClick}) => {
+  const { image, title, price, desc } = item;
 
   return (
     <Col lg="4" md="4" sm="6" className="mb-5">
@@ -21,7 +21,7 @@ const ServiceItem = (props) => {
           <p>
             {desc}
           </p>
-          <button className=" w-50 service__item-btn service__btn-rent">
+          <button className=" w-50 service__item-btn service__btn-rent" onClick={()=>handleClick(item)}>
             Book Service
           </button>
 

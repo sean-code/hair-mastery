@@ -3,20 +3,20 @@ import { Container, Row } from "react-bootstrap";
 import ServiceItem from "../UI/serviceItem";
 import { useState } from "react";
 
-const Services = () =>{
+const Services = ({ handleClick }) =>{
   const [cart, setCart] = useState([]);
 
-  const handleClick = (item) =>{
-    console.log(item)
-  };
+  // const handleClick = (item) =>{
+  //   console.log(item)
+  // };
 
     return(
         <>
             <Container>
                 <Row>
                     <h1>Services</h1>
-                {serviceData.map((item) => (
-              <ServiceItem item={item} key={item.id} handleClick={handleClick} />
+                {serviceData.map((item, index) => (
+              <ServiceItem item={item} key={`item-${item.id}-${index}`} />
             ))}
             
           </Row>
