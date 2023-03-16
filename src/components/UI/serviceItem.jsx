@@ -22,7 +22,7 @@ const ServiceItem = (props) => {
             {desc}
           </p>
           <button className=" w-50 service__item-btn service__btn-rent">
-            <Link to={`/our-services/${title}`}>Book Service</Link>
+            Book Service
           </button>
 
           <button className=" w-50 service__item-btn service__btn-details">

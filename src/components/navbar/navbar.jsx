@@ -23,7 +23,7 @@ function NavBar() {
                     <span>
                         <img src={Cart} alt="cart" style={{width:'40px', marginLeft:'5px'}} />
                     </span>
-                    <span className='count'>0</span>
+                    <span className='count'>1</span>
                 </ul>
                 
                 <h1 className="logo">Hair Mastery✂️ </h1>
