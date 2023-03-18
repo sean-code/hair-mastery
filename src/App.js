@@ -1,31 +1,36 @@
-
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useState } from 'react';
 import Footer from './components/footer/footer';
-import Home from './components/landing/landing';
 import NavBar from './components/navbar/navbar';
+import Routing from './Routes';
 import Services from './components/services/services';
-import Testimonial from './components/testimonials/testimonial';
-import Contact from './components/contact/contact';
-
+import Cart from './components/services/cart';
 
 function App() {
+  const [show, setShow] = useState(true);
+  const [cart, setCart] = useState([]);
+
+
+  const handleClick = (item) => {
+    if (cart.indexOf(item) !== -1) return;
+    setCart([...cart, item]);
+  };
+
+  const handleChange = (item, d) => {
+    const ind = cart.indexOf(item);
+    const arr = cart;
+    arr[ind].amount += d;
+
+    if (arr[ind].amount === 0) arr[ind].amount = 1;
+    setCart([...arr]);
+  };
+
   return (
-    <>
-      <NavBar />
-      <div className="App">
-        <Router>
-          <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/about' />
-            <Route path='/services' element={<Services/>}/>
-            <Route path='/testimonials' element={<Testimonial />} />
-            <Route path='/contact' element={<Contact />} />
-          </Routes>
-        </Router>
+      <React.Fragment>
+      <NavBar setShow={setShow} size={cart.length} />
+          <Routing />
         <Footer />
-    </div>
-    </>
+      </React.Fragment>
   );
 }
 

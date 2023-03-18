@@ -3,7 +3,7 @@ import Cart from './assets/imgs/shopping.svg';
 
 
 
-function NavBar() {
+function NavBar({ setShow, size }) {
   return (
     <div className='navbar-main'>
         <nav className="navbar">
@@ -17,11 +17,12 @@ function NavBar() {
                 <ul className="menu-items">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/services">Services</a></li>
+                    <li><a href="/services" onClick={() => setShow(true)}>Services</a></li>
                     <li><a href="/testimonials">Testimonials</a></li>
                     <li><a href="/contact">Contact</a></li>
-                    <span>
-                        <img src={Cart} alt="cart" style={{width:'40px', marginLeft:'5px'}} />
+                    <li><a href='/my-orders'>My Orders</a></li>
+                    <span onClick={() => setShow(false)}>
+                        <img src={Cart} alt="cart" style={{width:'20px', marginLeft:'5px'}} />
                     </span>
                     <span className='count'>1</span>
                 </ul>

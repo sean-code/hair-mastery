@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./serviceItem.css";
 
 const ServiceItem = ({item, handleClick}) => {
-  const { image, title, price, desc } = item;
+  const { id, image, title, price, desc } = item;
 
   return (
     <Col lg="4" md="4" sm="6" className="mb-5">

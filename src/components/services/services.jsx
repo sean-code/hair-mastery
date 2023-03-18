@@ -3,12 +3,13 @@ import { Container, Row } from "react-bootstrap";
 import ServiceItem from "../UI/serviceItem";
 import { useState } from "react";
 
-const Services = ({ handleClick }) =>{
+const Services = () =>{
   const [cart, setCart] = useState([]);
 
-  // const handleClick = (item) =>{
-  //   console.log(item)
-  // };
+  const handleClick = (item) =>{
+    cart.push(item);
+    console.log(cart);
+  };
 
     return(
         <>
@@ -16,7 +17,7 @@ const Services = ({ handleClick }) =>{
                 <Row>
                     <h1>Services</h1>
                 {serviceData.map((item, index) => (
-              <ServiceItem item={item} key={`item-${item.id}-${index}`} />
+              <ServiceItem item={item} handleClick={handleClick} key={`item-${item.id}-${index}`} />
             ))}
             
           </Row>
